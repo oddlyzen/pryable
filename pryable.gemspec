@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "lib/pryable.rb",
+    "pryable.gemspec",
     "test/helper.rb",
     "test/test_pryable.rb"
   ]
