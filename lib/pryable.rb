@@ -26,8 +26,6 @@ module Pryable
 
   
   module ClassMethods
-    def self.pryable
-      require 'pry'
-    end
+    require 'pry'
   end
 end
