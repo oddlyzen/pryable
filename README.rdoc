@@ -1,6 +1,6 @@
 = pryable
 
-Description goes here.
+Give your classes some introspection from Pry.
 
 == Contributing to pryable
  
