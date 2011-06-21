@@ -12,15 +12,17 @@ end
 require 'rake'
 
 require 'jeweler'
+require './lib/pryable.rb'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "pryable"
   gem.homepage = "http://github.com/oddlyzen/pryable"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Makes any code inspectable with Pry, in context, during runtime.}
+  gem.description = %Q{Uses Pry (http://rdoc.info/github/banister/pry/master/file/README.markdown) as a debugger and introspection tool.}
   gem.email = "mark.coates@gmail.com"
   gem.authors = ["Mark Coates (oddlyzen)"]
+  gem.version = Pryable::Version::STRING
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
