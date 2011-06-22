@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{pryable}
-  s.version = "0.1.3.dev"
+  s.version = "0.1.4.pre"
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mark Coates (oddlyzen)"]
@@ -14,14 +14,14 @@ Gem::Specification.new do |s|
   s.email = %q{mark.coates@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.textile"
   ]
   s.files = [
     ".document",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.textile",
     "Rakefile",
     "lib/pryable.rb",
     "pryable.gemspec",
