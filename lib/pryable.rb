@@ -18,9 +18,9 @@ module Pryable
     MAJOR = 0
     MINOR = 1
     PATCH = 3
-    #BUILD = ''
+    BUILD = 'dev'
     
-    STRING = [MAJOR, MINOR, PATCH].compact.join('.')
+    STRING = [MAJOR, MINOR, PATCH, (BUILD unless BUILD.empty?)].compact.join('.')
   end
   
   def self.included(base)
