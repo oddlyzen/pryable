@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{pryable}
-  s.version = "0.1.3"
+  s.version = "0.1.3.dev"
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mark Coates (oddlyzen)"]
-  s.date = %q{2011-06-21}
+  s.date = %q{2011-06-22}
   s.description = %q{Uses Pry (http://rdoc.info/github/banister/pry/master/file/README.markdown) as a debugger and introspection tool.}
   s.email = %q{mark.coates@gmail.com}
   s.extra_rdoc_files = [
