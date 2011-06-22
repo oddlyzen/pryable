@@ -3,21 +3,17 @@ h1. *Pryable*
 Give your classes some introspection from Pry.
 
 To use, include Pryable:
-<pre>
-  <code>
+<code>
   include Pryable
-  </code>
-</pre>
+</code>
   
 Then, either in the body of a method or in irb, just call #pry_open, like:
-<pre>
-  <code>
+<code>
   def do_something
     @setup = something
     pry_open
   end
-  </code>
-</pre>
+</code>
   
 You will be launched into a Pry session _inside_ the current context. You can use familiar-looking Pry commands then, such as @ls@, @cd Module@, @cd Class@, @cd ..@
 
