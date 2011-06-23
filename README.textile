@@ -1,6 +1,6 @@
 h1. *Pryable*
 
-Give your classes some introspection from Pry.
+Give your classes some introspection from <a href='http://rdoc.info/github/banister/pry/master/file/README.markdown' title='Pry: Get to the Code'>Pry</a>.
 
 To use, include Pryable:
 <pre><code>include Pryable</code></pre>
